@@ -1,0 +1,7 @@
+name: Commerce 2Checkout
+type: module
+description: 'Provides Commerce integration for 2Checkout payments.'
+package: Commerce (contrib)
+core: 8.x
+dependencies:
+  - commerce:commerce_payment

@@ -1,0 +1,10 @@
+{
+  "name": "drupal/commerce_2checkout",
+  "type": "drupal-module",
+  "description": "Provides Commerce integration for 2Checkout.",
+  "homepage": "http://drupal.org/project/commerce_2checkout",
+  "license": "GPL-2.0+",
+  "require": {
+    "drupal/commerce": "~2"
+  }
+}

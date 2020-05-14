@@ -1,0 +1,30 @@
+commerce_payment.commerce_payment_gateway.plugin.twocheckout_offsite_redirect:
+  type: commerce_payment_gateway_configuration
+  mapping:
+    merchant_code:
+      type: string
+      label: 'Merchant code'
+    secret_word:
+      type: string
+      label: 'Secret key'
+    demo:
+      type: boolean
+      label: 'Enable demo mode'
+    language:
+      type: string
+      label: 'Checkout page language'
+    skip_order_review:
+      type: boolean
+      label: 'Skip order review'
+    direct_checkout:
+      type: boolean
+      label: 'Inline checkout'
+    third_party_cart:
+      type: boolean
+      label: 'Third-party cart'
+    tangible:
+      type: boolean
+      label: 'Order items are tangible'
+    logging:
+      type: string
+      label: 'Logging'
